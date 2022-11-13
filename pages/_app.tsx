@@ -17,7 +17,7 @@ const MyApp = ({ Component, pageProps }: AppProps) => {
             <Head>
                 <title>Zach Selindh</title>
                 <meta name="description" content="Web Developer" />
-                {/* <link rel="icon" href="/favicon.ico" /> */}
+                <link rel="icon" href="/favicon.ico" />
                 {/* <link rel="manifest" href="/manifest.json" /> */}
                 {/* <link rel="apple-touch-icon" href="//imagesapple-touch-icon.png"></link> */}
                 <meta name="theme-color" content="#fff" />
