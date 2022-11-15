@@ -3,7 +3,7 @@ import CardHeader from '@mui/material/CardHeader';
 import CardContent from '@mui/material/CardContent';
 import Typography from '@mui/material/Typography';
 
-const AboutPage = () => {
+const ResumePage = () => {
     return (
         <>
             <CardHeader title="Resume" />
@@ -16,4 +16,4 @@ const AboutPage = () => {
     );
 };
 
-export default AboutPage;
+export default ResumePage;
