@@ -12,7 +12,6 @@ import { pages } from './helpers';
 const headerStyle = {
     mr: 2,
     display: 'flex',
-    fontFamily: 'monospace',
     fontWeight: 700,
     letterSpacing: '.3rem',
     color: 'inherit',
@@ -30,7 +29,7 @@ const Header = () => {
             <Container maxWidth="xl">
                 <Toolbar disableGutters>
                     <Link href="/">
-                        <Typography variant="h6" noWrap /* component="a" */ sx={headerStyle}>
+                        <Typography variant="h6" noWrap sx={headerStyle}>
                             Zach Selindh
                         </Typography>
                     </Link>
